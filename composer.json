@@ -2,6 +2,7 @@
     "name": "am-test/am-test-package",
     "description": "A simple test package",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Test\\TestPackage\\": "src/"
