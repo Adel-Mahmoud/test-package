@@ -1,5 +1,5 @@
 {
-    "name": "test/test-package",
+    "name": "am-test/am-test-package",
     "description": "A simple test package",
     "type": "library",
     "autoload": {
