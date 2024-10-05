@@ -1,0 +1,19 @@
+{
+    "name": "test/test-package",
+    "description": "A simple test package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Test\\TestPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Test\\TestPackage\\TestPackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
